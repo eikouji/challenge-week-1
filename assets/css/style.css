@@ -1,17 +1,16 @@
+/* Universal Styles */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* Same font-family for EVERY element, added it here to unify all font sections, 
-    unless otherwise specified */
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+
 
 body {
     background-color: #d9dcd6;
 }
 
-/* Header Section */
+/* Header Font styles */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -28,7 +27,8 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header {
+/* More specific Header styles and UL, LI styles */
+.header-style {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -36,11 +36,11 @@ header {
     font-size: 20px;
 }
 
-header ul {
+.header-style ul {
     list-style-type: none;
 }
 
-header ul li {
+.header-style ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -54,7 +54,7 @@ p {
     font-size: 16px;
 }
 
-/* Hero Sizing, Positioning */
+/* Hero Placements */
 .hero {
     height: 800px;
     width: 100%;
@@ -80,8 +80,69 @@ p {
     margin-left: 20px;
 }
 
+/* Benefits, Side Panel Section, Margins and Padding */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
 
-/* Hero Font Styles */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Benefit spacing, headings */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Benefits image spacing, sizing, styles */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Hero Font Styles, Box Sizing */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -109,56 +170,44 @@ p {
     color: #ffffff;
 }
 
-/* Hero Image Floats, image placing */
-.float-left, .float-right img {
+/* Hero Image Sizing Restriction */
+.search-engine-optimization img {
     max-height: 200px;
 }
 
+.online-reputation-management img {
+    max-height: 200px;
+}
 
-/*Hero h2 Placement*/
-.hero-h2-placement {
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Hero Font Uniformity */
+
+.search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Side Panel Styles / Benefits Styles */
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-.benefit-title {
-    margin-bottom: 32px;
-    color: #ffffff;
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
-
-.icon-styles h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Benefits - Side panel icon styles */
-.benefits-image-style img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
 
 /* Footer Styles */
-footer {
+.footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-footer h2 {
+.footer h2 {
     font-size: 20px;
 }
