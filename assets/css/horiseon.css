@@ -56,13 +56,13 @@ p {
 }
 
 /* Hero and Benefits Flexbox Container */
-/*
+
 .flex-box-container {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 
-} */
+}
 
 
 /* Hero and also Image Spacing */
@@ -103,7 +103,7 @@ p {
     background-color: #2589bd;
     /* adjust side panel placement */
     position: relative;
-    bottom: 960px;
+    bottom: 0px;
 }
 
 .benefit-lead {
